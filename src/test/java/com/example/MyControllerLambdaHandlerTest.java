@@ -29,7 +29,6 @@ class MyControllerLambdaHandlerTest {
    * Same test case as {@link MyControllerMicronautTest#getStatusMutableHttpResponse_ShouldReturn202Accepted()}
    */
   @Test
-  @Disabled("Expected: 202 Accepted, Actual: 200 OK")
   void getStatusMutableHttpResponse_ShouldReturn202Accepted() {
     // Given
     AwsProxyRequest request = new AwsProxyRequest();
@@ -48,7 +47,6 @@ class MyControllerLambdaHandlerTest {
    * Same test case as {@link MyControllerMicronautTest#getStatusHttpResponse_ShouldReturn202Accepted()}
    */
   @Test
-  @Disabled("Expected: 202 Accepted, Actual: 200 OK")
   void getStatusHttpResponse_ShouldReturn202Accepted() {
     // Given
     AwsProxyRequest request = new AwsProxyRequest();
