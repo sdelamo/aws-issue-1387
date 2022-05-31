@@ -13,8 +13,7 @@ public class MyController {
 
   @Get("/status-mutable-http-response")
   public MutableHttpResponse<String> getStatusMutableHttpResponse() {
-    return new SimpleHttpResponseFactory()
-        .status(HttpStatus.ACCEPTED)
+    return HttpResponse.status(HttpStatus.ACCEPTED)
         .body("Testing getStatusMutableHttpResponse");
   }
 
